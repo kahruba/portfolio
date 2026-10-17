@@ -1,0 +1,141 @@
+/* General Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333333;
+}
+                                    /* Header */
+.navbar {
+    background-color: #17324d;
+    padding: 15px 0;
+}
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.nav-link:hover {
+    color: #5bc0eb !important;
+}
+                            /* Education Section */
+.education-section {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.education-section h1 {
+    color: #17324d;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.intro {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+                              /* Education Cards */
+.education-card {
+    background-color: #f4f7fb;
+    border-left: 4px solid #17324d;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.education-card h2 {
+    color: #17324d;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.education-card h3 {
+    color: #42627e;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.education-card p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 8px;
+}
+                                 /* Show More Button */
+#showMoreBtn {
+    background-color: #17324d;
+    border-color: #17324d;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+#showMoreBtn:hover {
+    background-color: #254b70;
+    border-color: #254b70;
+}
+                               /* Additional Details */
+.more-details {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e8eff8;
+    border-radius: 6px;
+}
+.more-details h2 {
+    color: #17324d;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.more-details p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+                                       /* Footer */
+footer {
+    background-color: #17324d;
+    color: white;
+    margin-top: 30px;
+}
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+footer p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+                                     /* Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+    .nav-link {
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .education-section {
+        padding: 20px;
+    }
+    .education-section h1 {
+        font-size: 28px;
+    }
+    .education-card {
+        padding: 15px;
+    }
+    .education-card h2 {
+        font-size: 19px;
+    }
+    .education-card h3 {
+        font-size: 16px;
+    }
+    .education-card p {
+        font-size: 15px;
+    }
+}

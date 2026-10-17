@@ -1,0 +1,112 @@
+/* General Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfe;
+    color: #333333;
+}
+                            /* Header */
+.navbar {
+    background-color: hsl(321, 98%, 61%) !important;
+    padding: 15px 0;
+}
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.nav-link:hover {
+    color: #3c0741 !important;
+}
+                              /* About Section */
+#home {
+    min-height: 350px;
+}
+#about h1 {
+    color:  hsl(321, 98%, 61%) !important;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#about p {
+    
+    font-size: 18px;
+    line-height: 1.8;
+}
+/* Profile Picture */
+.profile-picture {
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+    border: 4px solid hsl(321, 98%, 61%);
+    padding: 5px;
+    background-color: white;
+}
+                            /* Education and Skills */
+#education,
+#skills {
+    background-color:  hsl(321, 98%, 61%) !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px !important;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+#education h2,
+#skills h2 {
+    color: #f9fbfc;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#education p,
+#skills li {
+    color: #f9fbfc;
+    font-size: 17px;
+    line-height: 1.8;
+}
+#skills ul {
+    color: #f9fbfc;
+    padding-left: 25px;
+}
+                                       /* Footer */
+footer {
+    background-color: hsl(321, 83%, 27%) !important;
+    color: white;
+    margin-top: 30px;
+}
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+footer p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+                                /* Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .nav-link {
+        margin-left: 0;
+    }
+    #about h1 {
+        font-size: 28px;
+    }
+    #about p {
+        font-size: 16px;
+    }
+    .profile-picture {
+        width: 200px;
+        height: 230px;
+    }
+    #education,
+    #skills {
+        padding: 20px !important;
+    }
+}
